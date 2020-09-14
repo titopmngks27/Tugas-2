@@ -1,11 +1,11 @@
-var name = "tito";
+var name = "";
 var money = 4000;
 var age = 16;
 
 
 if (name === "" ){
-  console.log("Anda Tidak Boleh Memesan");
-  throw new Error('Program Berhenti');
+  console.log("Anda Tidak Boleh Masuk!");
+  debugger;
   }else{
   //KURANG DARI 17
     if (age < 17){
